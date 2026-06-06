@@ -1,0 +1,42 @@
+playwright_framework/
+│
+├── config/
+│    ├── settings.py
+│    ├── environments.json
+│
+├── core/
+│    ├── base_page.py
+│    ├── base_test.py
+│    ├── driver_factory.py
+│
+├── pages/
+│    ├── login_page.py
+│    ├── dashboard_page.py
+│    ├── experience_page.py
+│
+├── api/
+│    ├── api_client.py
+│    ├── auth_api.py
+│
+├── tests/
+│    ├── ui/
+│    │    ├── test_login.py
+│    │    ├── test_dashboard.py
+│    │
+│    ├── api/
+│    │    ├── test_auth.py
+│
+├── testdata/
+│    ├── users.json
+│
+├── utils/
+│    ├── logger.py
+│    ├── helpers.py
+│
+├── fixtures/
+│    ├── conftest.py
+│
+├── reports/
+│
+├── requirements.txt
+└── README.md
